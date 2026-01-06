@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gophero/goal/errorx"
-	"github.com/gophero/twitter"
+	"github.com/go4x/goal/errorx"
+	"github.com/go4x/twitter"
 )
 
 const (

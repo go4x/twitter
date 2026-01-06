@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophero/twitter"
+	"github.com/go4x/twitter"
 	"github.com/stretchr/testify/assert"
 )
 

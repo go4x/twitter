@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gophero/twitter"
+	"github.com/go4x/twitter"
 )
 
 var temp *template.Template
@@ -24,7 +24,7 @@ func init() {
 
 func main() {
 	clientId, clientSecret, redirectUrl := "bW55cThSSFlGR3ktMWxxWUIxMzY6MTpjaQ", "", "http://localhost:8080/demo"
-	clientSecret = os.Getenv("gophero_x_secret") // read client recret from env
+	clientSecret = os.Getenv("go4x_x_secret") // read client recret from env
 	mux := http.DefaultServeMux
 	mux.HandleFunc("/demo", func(w http.ResponseWriter, req *http.Request) {
 		req.ParseForm()

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gophero/twitter"
+	"github.com/go4x/twitter"
 )
 
 var followoApi = &twitter.OAuth2FollowApi{}

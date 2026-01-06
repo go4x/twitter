@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophero/twitter"
+	"github.com/go4x/twitter"
 )
 
 var oauth2ApiUrlFormat = "https://api.twitter.com/2%s"
