@@ -2,7 +2,7 @@ module github.com/go4x/twitter
 
 go 1.24.0
 
-require github.com/stretchr/testify v1.10.0
+require github.com/stretchr/testify v1.11.1
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -18,6 +18,7 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/go4x/goal v1.1.0
 	github.com/gophero/goal v0.0.0-20250729095439-8a154fbf5bd7
 	github.com/gophero/redisx v0.0.0-20250729105225-58277d4d442b
 	github.com/pmezard/go-difflib v1.0.0 // indirect
